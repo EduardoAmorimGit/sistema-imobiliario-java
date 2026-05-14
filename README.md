@@ -11,28 +11,28 @@ O desenvolvimento está sendo realizado de forma progressiva, priorizando entend
 # Objetivos do Projeto
 
 
-> Desenvolver um sistema baseado em regras de negócio reais
-> Evoluir conhecimentos em desenvolvimento backend com Java
-> Praticar modelagem e estruturação de software
-> Criar funcionalidades aplicáveis ao mercado imobiliário
-> Construir uma aplicação escalável para futuras melhorias
-> Desenvolver um projeto sólido para portfólio profissional
+> Desenvolver um sistema baseado em regras de negócio reais | 
+> Evoluir conhecimentos em desenvolvimento backend com Java | 
+> Praticar modelagem e estruturação de software | 
+> Criar funcionalidades aplicáveis ao mercado imobiliário | 
+> Construir uma aplicação escalável para futuras melhorias | 
+> Desenvolver um projeto sólido para portfólio profissional | 
 
 
 # Funcionalidades Planejadas
 
 
-Cadastro de imóveis
-Cadastro de clientes
-Controle de imóveis para venda e aluguel
-Consulta de disponibilidade
-Busca e listagem de imóveis
-Organização por tipos de imóvel
-Sistema de contratos
-Histórico de negociações
-Persistência de dados
-Sistema de autenticação
-Integração com banco de dados
+> Cadastro de imóveis | 
+> Cadastro de clientes | 
+> Controle de imóveis para venda e aluguel | 
+> Consulta de disponibilidade | 
+> Busca e listagem de imóveis | 
+> Organização por tipos de imóvel | 
+> Sistema de contratos | 
+> Histórico de negociações | 
+> Persistência de dados | 
+> Sistema de autenticação | 
+> Integração com banco de dados | 
 
 
 # Status do Projeto
