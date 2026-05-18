@@ -1,0 +1,49 @@
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Build folders
+/target/
+/out/
+/build/
+/bin/
+
+# IntelliJ IDEA
+/.idea/
+/*.iml
+out/
+
+# Eclipse
+/.classpath
+/.project
+/.settings/
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temp
+*.log
+tmp/
+*.tmp
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle
+.gradle/
+build/
+
+# Others
+*.class
