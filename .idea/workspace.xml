@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e217923c-b645-47e6-a6d4-c74e05e34f5b" name="Changes" comment="" />
+    <list default="true" id="e217923c-b645-47e6-a6d4-c74e05e34f5b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/entities/Imovel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +16,7 @@
   <component name="CopilotChats">
     <option name="panelChat">
       <chat>
-        <option name="activeSessionId" value="e4996efe-df89-4f36-a518-dcbba66780be" />
+        <option name="activeSessionId" value="0770be0d-474a-47c5-b60d-1e2b8a14544d" />
         <option name="sessions">
           <session>
             <option name="chatType" value="PANEL" />
@@ -30,6 +33,14 @@
             <option name="modeId" value="Agent" />
             <option name="modelType" value="builtin_family" />
             <option name="modelValue" value="auto" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="0770be0d-474a-47c5-b60d-1e2b8a14544d" />
+            <option name="modeId" value="Ask" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="gpt-5-mini" />
             <option name="targetType" value="LOCAL" />
           </session>
         </option>
@@ -62,6 +73,9 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="3DjkE0MsNUjceguHOc1io9zuaDg" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectSessionTemplates">
     <option name="panelTemplate">
       <template>
