@@ -52,4 +52,9 @@ public class Imovel {
             this.area = area;
         }
 
+        public String toString() {
+            return tipo + "|" + endereco + "|" + valor;
+        }
+
+
 }

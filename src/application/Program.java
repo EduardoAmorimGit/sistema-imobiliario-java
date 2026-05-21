@@ -23,9 +23,7 @@ public class Program {
         listaImoveis.add(imovel3);
 
         for (Imovel imoveis:listaImoveis) {
-            System.out.println(imoveis.getEndereco());
-            System.out.println(imoveis.getValor());
-            System.out.println(imoveis.isDisponivel());
+            System.out.println(imoveis);
 
         }
     }
