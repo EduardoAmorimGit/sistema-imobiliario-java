@@ -1,46 +1,76 @@
-# Sistema Imobiliário em Java
+# 🏠 Sistema Imobiliário em Java
 
-Sistema de gerenciamento imobiliário desenvolvido em Java com foco na construção de software real, modelagem de regras de negócio e evolução contínua da aplicação.
+Sistema imobiliário desenvolvido em Java com foco em organização, escalabilidade e representação de regras de negócio reais do setor imobiliário.
 
-A proposta deste projeto vai além de apenas criar um sistema simples de cadastro. A ideia é desenvolver uma aplicação baseada em situações reais do mercado imobiliário, utilizando conhecimentos adquiridos tanto nos estudos quanto na experiência prática da área.
+O projeto busca simular operações comuns de uma imobiliária, permitindo gerenciamento de imóveis, disponibilidade, valores, futuros contratos, clientes e processos internos.
 
-A escolha por um sistema imobiliário surgiu justamente pela familiaridade com os processos e desafios desse segmento, permitindo pensar em soluções mais próximas da realidade e desenvolver funcionalidades com propósito, visando transformar o projeto em algo cada vez mais completo, escalável e profissional.
+---
 
-O desenvolvimento está sendo realizado de forma progressiva, priorizando entendimento da arquitetura do sistema, organização de código, boas práticas de desenvolvimento e construção de funcionalidades que façam sentido dentro de um ambiente real.
+## 🚀 Objetivo do Projeto
 
-# Objetivos do Projeto
+Desenvolver uma aplicação backend capaz de gerenciar operações imobiliárias de forma estruturada, utilizando conceitos modernos de desenvolvimento e arquitetura de software.
 
+O sistema está sendo construído de forma incremental, priorizando:
 
-> Desenvolver um sistema baseado em regras de negócio reais | 
-> Evoluir conhecimentos em desenvolvimento backend com Java | 
-> Praticar modelagem e estruturação de software | 
-> Criar funcionalidades aplicáveis ao mercado imobiliário | 
-> Construir uma aplicação escalável para futuras melhorias | 
-> Desenvolver um projeto sólido para portfólio profissional | 
+* organização de código;
+* separação de responsabilidades;
+* modelagem de entidades;
+* escalabilidade;
+* boas práticas de desenvolvimento.
 
+---
 
-# Funcionalidades Planejadas
+## 📚 Funcionalidades e conceitos atuais
 
+* Cadastro de imóveis
+* Estruturação de entidades
+* Organização em packages
+* Armazenamento de múltiplos imóveis com `ArrayList`
+* Exibição personalizada com `toString()`
+* Controle de disponibilidade de imóveis
+* Estrutura inicial para CRUD
 
-> Cadastro de imóveis | 
-> Cadastro de clientes | 
-> Controle de imóveis para venda e aluguel | 
-> Consulta de disponibilidade | 
-> Busca e listagem de imóveis | 
-> Organização por tipos de imóvel | 
-> Sistema de contratos | 
-> Histórico de negociações | 
-> Persistência de dados | 
-> Sistema de autenticação | 
-> Integração com banco de dados | 
+---
 
+## 🛠️ Estrutura atual do projeto
 
-# Status do Projeto
+```bash id="f8n2vc"
+src
+ ├── application
+ ├── entities
+ ├── enums
+ ├── services
+ └── utils
+```
 
-🚧 Em desenvolvimento
+---
 
-O sistema está sendo construído de forma gradual, acompanhando a evolução da aplicação e a implementação de novas funcionalidades.
+## 🔥 Próximas implementações
 
-# Autor
+* CRUD completo de imóveis
+* Cadastro de clientes
+* Sistema de contratos
+* Persistência de dados
+* Integração com banco de dados
+* PostgreSQL/MySQL
+* Camada de serviços
+* Regras de negócio
+* Tratamento de exceções
+* Menus interativos
+* Sistema de busca e filtros
+* API REST futuramente
 
-Desenvolvido por Eduardo Amorim.
+---
+
+## 🧱 Tecnologias utilizadas
+
+* Java
+* IntelliJ IDEA
+* Git
+* GitHub
+
+---
+
+## 📌 Status do Projeto
+
+🚧 Em desenvolvimento contínuo.
