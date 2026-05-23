@@ -53,8 +53,6 @@ public class Imovel {
         }
 
         public String toString() {
-            return tipo + "|" + endereco + "|" + valor;
+            return id + " | " + tipo + " | " + endereco + " | " + valor + " | " + disponivel + " | " + area;
         }
-
-
 }
