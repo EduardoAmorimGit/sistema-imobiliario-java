@@ -44,9 +44,16 @@ public class Program {
             System.out.println("Tipo");
             String tipo = scanner.nextLine();
 
-            System.out.println("Disponibilidade");
-            boolean disponibilidade = scanner.nextBoolean();
-            scanner.nextLine();
+            System.out.println("Disponibilidade (Sim) ou (Não)");
+            String resposta = scanner.nextLine();
+
+            boolean disponibilidade;
+
+            if (resposta.equalsIgnoreCase("Sim")) {
+                disponibilidade = true;
+            } else {
+                disponibilidade = false;
+            }
 
             System.out.println("Metragem");
             int metragem = scanner.nextInt();
