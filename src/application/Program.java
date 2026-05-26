@@ -65,5 +65,33 @@ public class Program {
             for (Imovel imoveis:listaImoveis) {
                 System.out.println(imoveis);
             }
+
+        int opcao = -1;
+
+        while (opcao != 0) {
+            System.out.println("-=- Escolha uma opção -=-");
+
+            System.out.println("Opção 1 - Criar Imóvel");
+            System.out.println("Opção 2 - Excluir Imóvel");
+            System.out.println("Opção 3 - Listar Imóveis");
+            System.out.println("Opção 0 - Encerrar");
+
+            opcao = scanner.nextInt();
+
+            switch (opcao) {
+                case 0:
+                    break;
+                case 1:
+                    break;
+                case 2:
+                    break;
+                case 3:
+                    break;
+
+                default:
+                    System.out.println("Opção inválida");
+            }
+        }
+        scanner.close();
     }
 }
