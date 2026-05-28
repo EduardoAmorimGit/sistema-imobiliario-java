@@ -81,8 +81,10 @@ public class Program {
                         listaImoveis.get(i);
                         if (listaImoveis.get(i).getId() == buscaid) {
                             listaImoveis.remove(i);
-                            break;
+                        } else {
+                            System.out.println("Id indisponível");
                         }
+                        break;
                     }
                 case 3:
                     for (Imovel imoveis:listaImoveis) {
