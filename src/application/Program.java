@@ -77,12 +77,19 @@ public class Program {
                     System.out.println("Digite o ID que você deseja selecionar");
                     int buscaid = scanner.nextInt();
 
+                    boolean encontrado = false;
+
                     for (int i = 0; i < listaImoveis.size(); i++) {
                         listaImoveis.get(i);
                         if (listaImoveis.get(i).getId() == buscaid) {
                             listaImoveis.remove(i);
+                            encontrado = true;
+                            System.out.println("Imóvel removido com sucesso!");
                             break;
                         }
+                    }
+                    if (!encontrado) {
+                        System.out.println("ID indisponível");
                     }
                 case 3:
                     for (Imovel imoveis:listaImoveis) {
