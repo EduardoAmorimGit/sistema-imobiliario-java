@@ -108,6 +108,30 @@ public class Program {
 
                             System.out.println("Imóvel encontrado!");
                             System.out.println(imovelencontrado);
+
+                            System.out.println("Opção 1 - Alterar valor");
+                            System.out.println("Opção 2 - Alterar endereço");
+                            System.out.println("Opção 3 - Alterar disponibilidade");
+                            System.out.println("Opção 4 - Alterar área");
+
+                            int opcaoEditar = scanner.nextInt();
+
+                            switch (opcaoEditar) {
+                                case 1:
+                                    System.out.println("Você escolheu alterar o Valor!");
+                                    break;
+                                case 2:
+                                    System.out.println("Você escolheu alterar o Endereço!");
+                                    break;
+                                case 3:
+                                    System.out.println("Você escolheu alterar a Disponibilidade!");
+                                    break;
+                                case 4:
+                                    System.out.println("Você escolheu alterar a Área!");
+                                    break;
+                                default:
+                                    System.out.println("Opção inválida");
+                            }
                         }
                     }
                     break;
