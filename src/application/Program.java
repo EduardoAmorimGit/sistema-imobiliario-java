@@ -29,6 +29,7 @@ public class Program {
             System.out.println("Opção 1 - Criar Imóvel");
             System.out.println("Opção 2 - Excluir Imóvel");
             System.out.println("Opção 3 - Listar Imóveis");
+            System.out.println("Opção 4 - Editar imóvel");
             System.out.println("Opção 0 - Encerrar");
 
             opcao = scanner.nextInt();
