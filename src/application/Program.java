@@ -92,12 +92,25 @@ public class Program {
                     if (!encontrado) {
                         System.out.println("ID indisponível");
                     }
+                    break;
                 case 3:
                     for (Imovel imoveis:listaImoveis) {
                     System.out.println(imoveis);
                 }
                     break;
+                case 4:
+                    System.out.println("Digite o ID do imóvel que deseja editar");
+                    int buscaId = scanner.nextInt();
+                    for (int i = 0; i < listaImoveis.size(); i++) {
+                        listaImoveis.get(i);
+                        if (listaImoveis.get(i).getId() == buscaId) {
+                            Imovel imovelencontrado = listaImoveis.get(i);
 
+                            System.out.println("Imóvel encontrado!");
+                            System.out.println(imovelencontrado);
+                        }
+                    }
+                    break;
                 default:
                     System.out.println("Opção inválida");
             }
