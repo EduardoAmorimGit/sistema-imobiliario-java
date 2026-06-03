@@ -75,7 +75,7 @@ public class Program {
 
                     break;
                 case 2:
-                    System.out.println("Digite o ID que você deseja selecionar");
+                    System.out.println("Digite o ID que você deseja selecionar:");
                     int buscaid = scanner.nextInt();
 
                     boolean encontrado = false;
