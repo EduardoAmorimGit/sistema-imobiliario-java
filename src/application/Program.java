@@ -101,6 +101,7 @@ public class Program {
                 case 4:
                     System.out.println("Digite o ID do imóvel que deseja editar");
                     int buscaId = scanner.nextInt();
+
                     for (int i = 0; i < listaImoveis.size(); i++) {
                         listaImoveis.get(i);
                         if (listaImoveis.get(i).getId() == buscaId) {
@@ -115,6 +116,7 @@ public class Program {
                             System.out.println("Opção 4 - Alterar área");
 
                             int opcaoEditar = scanner.nextInt();
+                            scanner.nextLine();
 
                             switch (opcaoEditar) {
                                 case 1:
@@ -130,6 +132,13 @@ public class Program {
                                     break;
                                 case 2:
                                     System.out.println("Você escolheu alterar o Endereço!");
+                                    System.out.println("Digite o novo endereço:");
+                                    String alterarEndereco = scanner.nextLine();
+
+                                    imovelencontrado.setEndereco(alterarEndereco);
+
+                                    System.out.println("Endereço alterado com sucesso!");
+                                    System.out.println(imovelencontrado);
                                     break;
                                 case 3:
                                     System.out.println("Você escolheu alterar a Disponibilidade!");
