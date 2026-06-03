@@ -114,6 +114,7 @@ public class Program {
                             System.out.println("Opção 2 - Alterar endereço");
                             System.out.println("Opção 3 - Alterar disponibilidade");
                             System.out.println("Opção 4 - Alterar área");
+                            System.out.println("Opção 0 - Voltar");
 
                             int opcaoEditar = scanner.nextInt();
                             scanner.nextLine();
@@ -164,6 +165,8 @@ public class Program {
 
                                     System.out.println("área alterada com sucesso!");
                                     System.out.println(imovelencontrado);
+                                    break;
+                                case 0:
                                     break;
                                 default:
                                     System.out.println("Opção inválida");
