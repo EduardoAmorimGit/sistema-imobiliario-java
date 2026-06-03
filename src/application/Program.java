@@ -156,6 +156,14 @@ public class Program {
                                     break;
                                 case 4:
                                     System.out.println("Você escolheu alterar a Área!");
+                                    System.out.println("Digite o novo valor da Área");
+                                    double novaArea = scanner.nextDouble();
+                                    scanner.nextLine();
+
+                                    imovelencontrado.setArea(novaArea);
+
+                                    System.out.println("área alterada com sucesso!");
+                                    System.out.println(imovelencontrado);
                                     break;
                                 default:
                                     System.out.println("Opção inválida");
