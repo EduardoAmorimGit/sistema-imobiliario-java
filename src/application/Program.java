@@ -119,6 +119,14 @@ public class Program {
                             switch (opcaoEditar) {
                                 case 1:
                                     System.out.println("Você escolheu alterar o Valor!");
+
+                                    System.out.println("Digite o novo valor:");
+                                    double alterarValor = scanner.nextDouble();
+
+                                    imovelencontrado.setValor(alterarValor);
+
+                                    System.out.println("Valor alterado com sucesso!");
+                                    System.out.println(imovelencontrado);
                                     break;
                                 case 2:
                                     System.out.println("Você escolheu alterar o Endereço!");
