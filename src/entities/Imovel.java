@@ -52,7 +52,16 @@ public class Imovel {
             this.area = area;
         }
 
+
         public String toString() {
-            return id + " | " + tipo + " | " + endereco + " | " + valor + " | " + disponivel + " | " + area;
+
+            String status;
+            if (disponivel) {
+                status = "Sim";
+            } else {
+                status = "Não";
+            }
+
+            return id + " | " + tipo + " | " + endereco + " | " + valor + " | " + status + " | " + area;
         }
 }
