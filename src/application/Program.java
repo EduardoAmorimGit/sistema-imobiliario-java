@@ -142,6 +142,17 @@ public class Program {
                                     break;
                                 case 3:
                                     System.out.println("Você escolheu alterar a Disponibilidade!");
+                                    System.out.println("Deseja alterar a disponibilidade para: Disponível (Sim) Não disponível (Não)");
+                                    String respostaDisponibilidade = scanner.nextLine();
+
+                                    if (respostaDisponibilidade.equalsIgnoreCase("Sim")) {
+                                        imovelencontrado.setDisponivel(true);
+                                    } else {
+                                        imovelencontrado.setDisponivel(false);
+                                    }
+
+                                    System.out.println("Disponibilidade alterada com sucesso!");
+                                    System.out.println(imovelencontrado);
                                     break;
                                 case 4:
                                     System.out.println("Você escolheu alterar a Área!");
