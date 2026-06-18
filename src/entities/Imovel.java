@@ -64,4 +64,6 @@ public class Imovel {
 
             return id + " | " + tipo + " | " + endereco + " | " + valor + " | " + status + " | " + area;
         }
+
+
 }

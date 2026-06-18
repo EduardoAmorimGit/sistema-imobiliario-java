@@ -5,6 +5,12 @@ import java.util.Scanner;
 
 public class Program {
 
+    public static void listarImoveis(ArrayList<Imovel> listaImoveis) {
+        for (Imovel imovelDaLista : listaImoveis) {
+            System.out.println(imovelDaLista);
+        }
+    }
+
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
@@ -94,9 +100,7 @@ public class Program {
                     }
                     break;
                 case 3:
-                    for (Imovel imoveis:listaImoveis) {
-                    System.out.println(imoveis);
-                }
+                    listarImoveis(listaImoveis);
                     break;
                 case 4:
                     System.out.println("Digite o ID do imóvel que deseja editar");
